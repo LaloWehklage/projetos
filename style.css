@@ -1,0 +1,117 @@
+/* Fonte moderna e elegante */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #e0e0e0;
+}
+
+/* Cabeçalho com efeito tecnológico */
+header {
+  background: rgba(20, 20, 30, 0.9);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #4db6ac;
+  box-shadow: 0 0 15px #4db6ac;
+}
+
+header h1 {
+  font-size: 2.2em;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #00e5ff;
+}
+
+/* Navegação com efeito mágico */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #80deea;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #00e5ff;
+}
+
+/* Seções com caixas luminosas */
+section {
+  padding: 25px;
+  margin: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+}
+
+section h2 {
+  color: #4db6ac;
+  text-shadow: 0 0 8px #00e5ff;
+}
+
+/* Projetos com destaque */
+.projeto {
+  margin-bottom: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 4px solid #00e5ff;
+  transition: transform 0.3s;
+}
+
+.projeto:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 12px #00e5ff;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(20, 20, 30, 0.9);
+  color: #80deea;
+  border-top: 2px solid #4db6ac;
+  box-shadow: 0 -2px 15px #4db6ac;
+}
+
+.projeto {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border-left: 4px solid #00e5ff;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projeto h3 {
+  color: #80deea;
+  margin-top: 0;
+}
+
+.projeto a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00e5ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.projeto a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #00e5ff;
+}
+
+.projeto:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 12px #00e5ff;
+}
